@@ -55,7 +55,7 @@ jobs:
             --results-directory ./TestResults
 
       - name: Publish Test Results
-        uses: dorny/tests-reporter@v1
+        uses: dorny/test-reporter@v1
         if: always()
         with:
           name: Test Results
